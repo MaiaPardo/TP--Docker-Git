@@ -5,14 +5,14 @@ Este proyecto muestra una página HTML simple usando un contenedor Docker con Ng
 ## 🛠️ Cómo usarlo
 
 1. Clonar el repositorio:
-git clone https://github.com/usuario/repositorio.git
-cd repositorio
+`git clone https://github.com/MaiaPardo/repositorio.git`
+`cd TP--Docker-Git`
 
 2. Construir la imagen Docker: 
-docker build -t practica-nginx .
+`docker build -t practica-nginx .`
 
 3. Correr el contenedor:
-docker run -d -p 8080:80 --name mi-practica-nginx practica-nginx
+`docker run -d -p 8080:80 --name mi-practica-nginx practica-nginx`
 
 4. Abrir el navegador en `http://localhost:8080`
 ## 📄 Contenido
